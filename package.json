@@ -8,7 +8,6 @@
     "web3": "^1.7.0",
     "web3-providers-http": "^1.7.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rm": "rimraf *.js & rimraf package-lock.json",
@@ -24,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/dindonero/YetiFinance-Dashboard/issues"
   },
-  "homepage": "https://github.com/dindonero/YetiFinance-Dashboard#readme"
+  "homepage": "https://github.com/dindonero/YetiFinance-Dashboard#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
 }
